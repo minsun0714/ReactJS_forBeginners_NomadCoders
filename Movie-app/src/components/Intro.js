@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 
 function Intro({ title, summary, url }) {
-  console.log(summary);
   return (
     <div>
-      <h2>
-        <Link to={url}>{title}더 보기</Link>
-      </h2>
+      <h2>{title}</h2>
+      <a href={url} target='_blank'>
+        MORE
+      </a>
       <p> {summary}</p>
     </div>
   );
