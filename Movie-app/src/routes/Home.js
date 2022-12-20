@@ -21,11 +21,10 @@ function Home() {
 
   return (
     <div className={styles.bg}>
-      <h1 className={styles.banner}>Jasmine movie room</h1>
+      <h1 className={styles.banner}>🏰 Jasmine Cinema 🍿</h1>
       <h2 className={styles.num}>
         number of movies ready for you ({movies.length})
       </h2>
-      <hr className={styles.hr}></hr>
       <div className={styles.grid}>
         {loading ? (
           <h1>Loading...</h1>
@@ -36,7 +35,7 @@ function Home() {
                 key={movie.id}
                 id={movie.id}
                 coverImg={movie.medium_cover_image}
-                title={movie.title}
+                title={movie.title_long}
                 summary={movie.summary}
                 genres={movie.genres}
                 year={movie.year}

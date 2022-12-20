@@ -1,13 +1,14 @@
 .banner {
-  color: azure;
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(159, 21, 21);
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   font-size: 50px;
 }
 .num {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   text-align: center;
-  font-size: 20px;
+  font-size: 12px;
   color: white;
 }
 
@@ -22,6 +23,6 @@
   background-color: black;
 }
 
-.hr {
-  color: dimgrey;
+body {
+  margin: 0px;
 }
