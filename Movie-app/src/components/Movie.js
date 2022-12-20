@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import styles from "./Movie.module.css";
 
 function Movie({ id, coverImg, title, summary, genres, year }) {
+<<<<<<< HEAD
   console.log(summary);
   return (
     <div>
@@ -16,6 +17,28 @@ function Movie({ id, coverImg, title, summary, genres, year }) {
         ))}
       </ul>
       <h3>{summary.length > 400 ? summary.length === 400 : summary}</h3>
+=======
+  return (
+    <div>
+      <Link to={`/movie/${id}`}>
+        <img src={coverImg} alt={title} />
+      </Link>
+      <h2 className={styles.title}>
+        <Link to={`/movie/${id}`} style={{ textDecoration: "none" }}>
+          {title + " (" + year + ")"}
+        </Link>
+      </h2>
+      <h3 className={styles.genre}>
+        {genres.map((g) =>
+          g === genres[genres.length - 1] ? `${g}` : `${g}/`
+        )}
+      </h3>
+      <h3 className={styles.sum}>
+        {summary.length > 250
+          ? summary.split("").splice(0, 250).join("") + ".."
+          : summary}
+      </h3>
+>>>>>>> 6cb3564 (📝 에러 해결: git init)
     </div>
   );
 }

@@ -1,4 +1,8 @@
 .banner {
+<<<<<<< HEAD
+=======
+  color: azure;
+>>>>>>> 6cb3564 (📝 에러 해결: git init)
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 50px;
@@ -7,4 +11,23 @@
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 20px;
+<<<<<<< HEAD
+=======
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(1fr);
+  text-align: center;
+}
+
+.bg {
+  background-color: black;
+}
+
+.hr {
+  color: dimgrey;
+>>>>>>> 6cb3564 (📝 에러 해결: git init)
 }

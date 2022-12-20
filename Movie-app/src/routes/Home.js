@@ -20,6 +20,7 @@ function Home() {
   }, []);
 
   return (
+<<<<<<< HEAD
     <div>
       <h1 className={styles.banner}>Jasmine movie room</h1>
       <h2 className={styles.num}>movies ready for you : {movies.length}</h2>
@@ -39,6 +40,33 @@ function Home() {
           />
         ))
       )}
+=======
+    <div className={styles.bg}>
+      <h1 className={styles.banner}>Jasmine movie room</h1>
+      <h2 className={styles.num}>
+        number of movies ready for you ({movies.length})
+      </h2>
+      <hr className={styles.hr}></hr>
+      <div className={styles.grid}>
+        {loading ? (
+          <h1>Loading...</h1>
+        ) : (
+          movies.map((movie) => (
+            <div>
+              <Movie
+                key={movie.id}
+                id={movie.id}
+                coverImg={movie.medium_cover_image}
+                title={movie.title}
+                summary={movie.summary}
+                genres={movie.genres}
+                year={movie.year}
+              />
+            </div>
+          ))
+        )}
+      </div>
+>>>>>>> 6cb3564 (📝 에러 해결: git init)
     </div>
   );
 }

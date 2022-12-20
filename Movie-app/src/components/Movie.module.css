@@ -1,5 +1,6 @@
 .title {
   font-style: oblique;
+<<<<<<< HEAD
   font-size: 20px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -7,4 +8,41 @@
 .genre {
   font-size: 16px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+=======
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.genre {
+  color: white;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
+
+.sum {
+  margin-left: 40px;
+  margin-right: 40px;
+  color: white;
+}
+
+.color {
+  color: white;
+}
+
+.full {
+  width: 100%;
+  height: 100%;
+}
+
+h2 {
+  text-decoration: none;
+>>>>>>> 6cb3564 (📝 에러 해결: git init)
 }

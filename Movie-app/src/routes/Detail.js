@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Intro from "../components/Intro";
+<<<<<<< HEAD
+=======
+import styles from "./Detail.module.css";
+>>>>>>> 6cb3564 (📝 에러 해결: git init)
 
 function Detail() {
   const [movie, setMovie] = useState("");
@@ -20,7 +24,11 @@ function Detail() {
   return (
     <div>
       {loading ? (
+<<<<<<< HEAD
         <h1>Loading for detail</h1>
+=======
+        <h1>Loading..</h1>
+>>>>>>> 6cb3564 (📝 에러 해결: git init)
       ) : (
         <Intro
           key={id}
