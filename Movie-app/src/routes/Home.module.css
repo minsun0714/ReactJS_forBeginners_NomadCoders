@@ -1,18 +1,28 @@
 .banner {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   color: azure;
 >>>>>>> 6cb3564 (📝 에러 해결: git init)
   font-family: Arial, Helvetica, sans-serif;
+=======
+  color: rgb(159, 21, 21);
+  font-family: Georgia, "Times New Roman", Times, serif;
+>>>>>>> 124d814 (💄 grid 적용하여 10*2 행렬 구현)
   text-align: center;
   font-size: 50px;
 }
 .num {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   text-align: center;
+<<<<<<< HEAD
   font-size: 20px;
 <<<<<<< HEAD
 =======
+=======
+  font-size: 12px;
+>>>>>>> 124d814 (💄 grid 적용하여 10*2 행렬 구현)
   color: white;
 }
 
@@ -27,7 +37,12 @@
   background-color: black;
 }
 
+<<<<<<< HEAD
 .hr {
   color: dimgrey;
 >>>>>>> 6cb3564 (📝 에러 해결: git init)
+=======
+body {
+  margin: 0px;
+>>>>>>> 124d814 (💄 grid 적용하여 10*2 행렬 구현)
 }
