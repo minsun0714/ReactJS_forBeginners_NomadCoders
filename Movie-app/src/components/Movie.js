@@ -10,7 +10,7 @@ function Movie({ id, coverImg, title, summary, genres, year }) {
       </Link>
       <h2 className={styles.title}>
         <Link to={`/movie/${id}`} style={{ textDecoration: "none" }}>
-          {title + " (" + year + ")"}
+          {title}
         </Link>
       </h2>
       <h3 className={styles.genre}>
