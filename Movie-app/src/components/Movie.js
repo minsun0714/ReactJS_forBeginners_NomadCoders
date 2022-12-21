@@ -9,7 +9,10 @@ function Movie({ id, coverImg, title, summary, genres, year }) {
         <img src={coverImg} alt={title} />
       </Link>
       <h2 className={styles.title}>
-        <Link to={`/movie/${id}`} style={{ textDecoration: "none" }}>
+        <Link
+          to={`/movie/${id}`}
+          style={{ textDecoration: "none", color: "white" }}
+        >
           {title}
         </Link>
       </h2>
