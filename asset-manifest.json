@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reactJS_Nomadcoders_free_course/static/css/main.ffb42fbc.css",
+    "main.js": "/reactJS_Nomadcoders_free_course/static/js/main.b2507421.js",
+    "index.html": "/reactJS_Nomadcoders_free_course/index.html",
+    "main.ffb42fbc.css.map": "/reactJS_Nomadcoders_free_course/static/css/main.ffb42fbc.css.map",
+    "main.b2507421.js.map": "/reactJS_Nomadcoders_free_course/static/js/main.b2507421.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffb42fbc.css",
+    "static/js/main.b2507421.js"
+  ]
+}
