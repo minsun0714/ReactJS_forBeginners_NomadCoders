@@ -21,9 +21,9 @@ function Home() {
 
   return (
     <div className={styles.bg}>
-      <h1 className={styles.banner}>🏰 Jasmine Cinema 🍿</h1>
+      <h1 className={styles.banner}>명작 Cinema </h1>
       <h2 className={styles.num}>
-        number of movies ready for you ({movies.length})
+        number of 명작s ready for you ({movies.length})
       </h2>
       <div className={styles.grid}>
         {loading ? (
